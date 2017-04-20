@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 public class SongsManager {
 
-    final String MEDIA_PATH = new String("/sdcard/muzio");
+    final String MEDIA_PATH = new String("/sdcard/");
     private ArrayList<HashMap<String, String>> songsList = new ArrayList<HashMap<String, String>>();
 
     // Constructor

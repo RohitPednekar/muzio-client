@@ -11,7 +11,7 @@ import agency.tango.materialintroscreen.MaterialIntroActivity;
 import agency.tango.materialintroscreen.SlideFragmentBuilder;
 
 /**
- * Created by Sarvesh on 4/13/2017.
+ * Created by Sony on 4/13/2017.
  */
 
 
