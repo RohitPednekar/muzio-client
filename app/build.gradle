@@ -29,4 +29,6 @@ dependencies {
     compile 'com.github.paolorotolo:appintro:4.1.0'
     compile 'agency.tango.android:material-intro-screen:0.0.5'
     testCompile 'junit:junit:4.12'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
 }

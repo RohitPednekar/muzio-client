@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new PlayList(), "Music List");
-        adapter.addFragment(new Client(), "Client");
+        adapter.addFragment(new QRScan(), "Client");
 
         viewPager.setAdapter(adapter);
     }

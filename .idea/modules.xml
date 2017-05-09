@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/muzio-client.iml" filepath="$PROJECT_DIR$/muzio-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/muzio-client-master.iml" filepath="$PROJECT_DIR$/muzio-client-master.iml" />
     </modules>
   </component>

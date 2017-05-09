@@ -98,7 +98,7 @@ public class PlayList  extends Fragment {
         btnBackward = (ImageButton) view.findViewById(R.id.btnBackward);
         btnNext = (ImageButton) view.findViewById(R.id.btnNext);
         btnPrevious = (ImageButton) view.findViewById(R.id.btnPrevious);
-        btnPlaylist = (ImageButton) view.findViewById(R.id.btnPlaylist);
+        //btnPlaylist = (ImageButton) view.findViewById(R.id.btnPlaylist);
         btnRepeat = (ImageButton) view.findViewById(R.id.btnRepeat);
         btnShuffle = (ImageButton) view.findViewById(R.id.btnShuffle);
         songProgressBar = (SeekBar) view.findViewById(R.id.songProgressBar);
@@ -284,14 +284,14 @@ public class PlayList  extends Fragment {
          * Button Click event for Play list click event
          * Launches list activity which displays list of songs
          * */
-        btnPlaylist.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-                Intent i = new Intent(getActivity().getApplicationContext(), PlayListActivity.class);
-                startActivityForResult(i, 100);
-            }
-        });
+//        btnPlaylist.setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View arg0) {
+//                Intent i = new Intent(getActivity().getApplicationContext(), PlayListActivity.class);
+//                startActivityForResult(i, 100);
+//            }
+//        });
 
         return view;
 
